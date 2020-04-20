@@ -1,0 +1,217 @@
+*{
+    font-family: "Josefin Sans";
+}
+body{
+    background-color: #152535;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: #203345;
+    color:white;
+    float: left;
+    width: 100%;
+}
+.list{
+    margin-right: 30px;
+}
+ul{
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    float:right;
+}
+li{
+    margin:0 20px ;
+}
+.image{
+    position: relative;
+    padding: 5px;
+}
+.me{
+    position: absolute;
+    left: 89.5%;
+    color:#203345 ;
+}
+.main{
+    margin-top: 70px;
+    display: flex;
+    max-width: 100%;
+    max-height: 60%;
+}
+.img3{
+    margin-left: 180px;
+    margin-top: 50px;
+    max-width: 370px;
+}
+.main2{
+    height: 600px;
+    width: 100%;
+}
+.img4{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+h1{
+    position: absolute;
+    top: 400px;
+    color: white;
+    font-size: 50px;
+}
+.para{
+    color:lightslategray;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.btn{
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:#152535 ;
+    color: white;
+}
+.btn1{
+    color: white;
+    background-color: mediumblue;
+    align-items: center;
+    border: none;
+}
+.fav{
+    margin: 50px 0 30px 180px;
+}
+.fan{
+    border-left:3px solid white ;
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pics{
+    width:20%;
+    height: 120px;
+    margin:30px 25px 0 0;
+    border-radius: 5px;
+}
+.a{
+    background-image: url('myimg/lacasa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b{
+    background-image: url('myimg/inception.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c{
+    background-image: url('myimg/gully.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d{
+    background-image: url('myimg/joker.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.e{
+    background-image: url('myimg/YJHD.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f{
+    background-image: url('myimg/tpoh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.g{
+    background-image: url('myimg/bmb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h{
+    background-image: url('myimg/3_idiots.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lang{
+    height: 125px;
+    width: 10%;
+    border-radius: 5px;
+    margin:30px 34px 0 0;
+    position: relative;
+}
+.i{
+    background-image: url('myimg/grad6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.j{
+    background-image: url('myimg/grad3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.k{
+    background-image: url('myimg/grad4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.l{
+    background-image: url('myimg/grad5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m{
+    background-image: url('myimg/grad2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.n{
+    background-image: url('myimg/grad7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.o{
+    background-image: url('myimg/grad1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.movies h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.movies p{
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+.r{
+    background-image: url('myimg/titanic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s{
+    background-image: url('myimg/drama.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t{
+    background-image: url('myimg/action.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.u{
+    background-image: url('myimg/comedy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
