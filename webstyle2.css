@@ -1,0 +1,206 @@
+*{
+    font-family: "Josefin Sans";
+    box-sizing: border-box;
+}
+body{
+    background-color: #152535;
+    position: relative;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: #203345;
+    color:white;
+    float: left;
+    width: 100%;
+}
+.list{
+    margin-right: 30px;
+}
+ul{
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    float:right;
+}
+li{
+    margin:0 20px ;
+}
+
+.image{
+    position: relative;
+    padding: 5px;
+}
+.me{
+    position: absolute;
+    left: 89.5%;
+    color:#203345 ;
+}
+
+h1{
+    color: white;
+    font-size: 47px;
+}
+.main{
+    margin-top: 60px;
+    display: flex;
+    color: lightslategray;
+    height: 500px;
+}
+.img4{
+    height: 100%;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin: 220px 20% 0 30%;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    
+}
+
+
+.main1{
+    margin:30px 0 0 140px;
+    width: 50%;
+}
+.para{
+    font-size: 18px;
+}
+.btn{
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 20px;
+    background-color:#152535 ;
+    color: white;
+    cursor: pointer;
+}
+.btn1{
+    color: white;
+    background-color: rgb(32, 145, 221);
+    align-items: center;
+    border: none;
+    width: 130px;
+}
+.btn2{
+    width: 190px;
+}
+.btn2:hover{
+    background-color: #3a5772;
+}
+.btn3:hover{
+    background-color: #3a5772;
+}
+.btn1:hover{
+    background-color:rgb(12, 45, 136);
+}
+.direct{
+    margin-top: 20px;
+}
+label{
+    margin-right: 25px;
+}
+.dir{
+    color: rgb(50, 155, 221)
+}
+.mir{
+    color: white;
+}
+
+.fav{
+    margin: 70px 0 30px 180px;
+}
+.fan{
+    border-left:3px solid white ;
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pics{
+    width:20%;
+    height: 120px;
+    margin:30px 25px 0 0;
+    border-radius: 5px;
+}
+
+.a{
+    background-image: url('myimg/lacasa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b{
+    background-image: url('myimg/inception.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c{
+    background-image: url('myimg/gully.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d{
+    background-image: url('myimg/joker.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    height: 210px;
+    margin-top: 100px;
+    background-color: #203345;
+}
+.fb{
+    background-color: lightslategray;
+    color: #152535;
+    margin:20px 15px 20px 0;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.app{
+    margin: 0 auto;
+}
+.flux{
+    text-align: center;
+    width: 73%;
+    margin-bottom:20px  ;
+    color: lightslategray;
+}
+.flux li{
+    width: 135px;
+    font-size: 18px;
+}
+
+.terms{
+    text-align: center;
+    display: flex;
+    color: lightslategray;
+    margin: 0 30%;
+}
+.terms li{
+    width: 170px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.logo{
+    margin-bottom: 20px;
+    text-align: center;
+    color: lightslategray;
+}
+.enquiry{
+    color: lightslategray;
+    text-align: center;
+    font-size: small;
+    margin-top: 10px;
+}
