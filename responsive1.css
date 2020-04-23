@@ -1,0 +1,85 @@
+@media (max-width:1000px){
+    header{
+        width:100%;
+    }
+    .main{
+        width:152%;
+    }
+ 
+    h1{
+        font-size:45px;
+        width:450px;
+    }
+    .movies{
+        width:900px;
+    }
+    .pics{
+        width:22%
+    }
+    .boll .pics{
+        width:21.7%;
+    }
+    .lang{
+        width:21%
+    }
+    .avenger{
+        width:95%;
+    }
+    .c{
+        width:26%;
+    }
+     .gen{
+         width:20%;
+         margin-right:auto;
+     }
+     .exp{
+         margin-left:auto;
+     }
+     .bar{
+         width:115%;
+     }
+     footer{
+         width:152%;
+     }
+     .flux{
+         margin-left:-65px;
+     }
+     .flux li{
+         width:auto;
+     }
+     .terms{
+         margin-left:25%;
+     }
+     .q{
+         width:90%;
+     }
+     .con{
+         margin-left:63%;
+     }
+
+}
+
+@media (max-width:670px){
+    .main{
+       width:352%; 
+    }
+    .fan{
+        width:200%;
+    }
+    .icon{
+        margin-left:66%;
+    }
+    footer{
+        width:352%;
+    }
+    .terms{
+        margin-left:22%;
+    }
+    .mov p{
+        width:200%;
+    }
+    .bar{
+        width:284%;
+    }
+    
+}
