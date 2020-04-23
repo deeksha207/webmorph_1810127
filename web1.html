@@ -9,11 +9,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" href="webstyle.css" />
+    <link rel="stylesheet" type="text/css" href="responsive1.css" />
   </head>
   <body>
     <header>
       <div class="heading">
-        FLUX
+        <img src="myimg/flux.png" class="flx" />
       </div>
       <div class="list">
         <ul>
@@ -23,10 +24,10 @@
           <li>Kids</li>
           <li>
             <input type="text" placeholder="Search" class="image" />
-            <i class="fa fa-search me" style="font-size: x-large;"></i>
+            <i class="fa fa-search me" style="font-size: large;"></i>
           </li>
           <li>
-            <i class="fa fa-user-circle-o" style="font-size: xx-large;"></i>
+            <i class="fa fa-user-circle-o" style="font-size: x-large;"></i>
           </li>
         </ul>
       </div>
@@ -36,8 +37,12 @@
         <img src="myimg/moneyh.jpg" class="img3" />
       </div>
       <div class="main2">
+        <i
+          class="fa fa-play-circle icon"
+          style="font-size: 120px; color: rgb(239, 242, 243);"
+        ></i>
         <img src="myimg/heist.jpg" class="img4" />
-        <h1>"Money Heist : Part 4"</h1>
+        <h5>"Money Heist : Part 4"</h5>
         <div class="para">
           <p>
             Lives are on the line as the professor's plan begins to uravel and
@@ -52,7 +57,7 @@
           <button class="btn btn2" type="button">
             <i class="fa fa-plus" style="color: white;"></i>Add to Wishlist
           </button>
-          <button class="btn btn3" type="button">Details</button>
+          <button class="btn btn3" type="button" id="det">Details</button>
         </div>
       </div>
     </div>
@@ -66,66 +71,172 @@
       </div>
     </div>
 
+    <div class="fav parts boll">
+      <div class="fan">Bollywood Binge</div>
+      <div class="movies">
+        <div class="pics e"></div>
+        <div class="pics f"></div>
+        <div class="pics g">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>Gully Boy</h3>
+              <h4>A coming-of-age story based on the lives of street rappers in Mumbai.</h4>
+              <h5>
+                2 hr 33 min. | 2019 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.3
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pics h"></div>
+      </div>
+    </div>
+
     <div class="fav parts">
-        <div class="fan">Bollywood Binge</div>
-        <div class="movies">
-          <div class="pics e"></div>
-          <div class="pics f"></div>
-          <div class="pics g"></div>
-          <div class="pics h"></div>
+      <div class="fan">Watch in your language</div>
+      <div class="movies">
+        <div class="lang i">
+          <h2>E</h2>
+          <h6>English</h6>
+        </div>
+        <div class="lang j">
+          <h2>H</h2>
+          <h6>Hindi</h6>
+        </div>
+        <div class="lang k">
+          <h2>T</h2>
+          <h6>Telgu</h6>
+        </div>
+        <div class="lang l">
+          <h2>P</h2>
+          <h6>Punjabi</h6>
+        </div>
+        <div class="lang m">
+          <h2>M</h2>
+          <h6>Marathi</h6>
+        </div>
+        <div class="lang n">
+          <h2>T</h2>
+          <h6>Tamil</h6>
+        </div>
+        <div class="lang o">
+          <h2>B</h2>
+          <h6>Bengali</h6>
         </div>
       </div>
+    </div>
+    <div class="fav parts">
+      <div class="fan">Top Rated</div>
+      <div class="movies">
+        <div class="avenger p"></div>
+        <div class="q">
+          <i
+            class="fa fa-play-circle"
+            style="
+              font-size: 50px;
+              color: rgb(239, 242, 243);
+              margin: 5px 5px 0 15px;
+            "
+          ></i>
+          <div class="mov">
+            <h4>
+              "The Avengers : Marvel Studios"
+            </h4>
+            <h5>
+              2 hr 33 min. | 2019 |
+              <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.3
+            </h5>
+          </div>
+          <div class="con">
+            <i class="fa fa-plus" style="font-size: 50px; color: white;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <div class="fav parts">
-        <div class="fan">Watch in your language</div>
-        <div class="movies">
-          <div class="lang i">
-              <h2>E</h2>
-              <P>English</P>
-          </div>
-          <div class="lang j">
-              <h2>H</h2>
-              <p>Hindi</p>
-          </div>
-          <div class="lang k">
-              <h2>T</h2>
-              <p>Telgu</p>
-          </div>
-          <div class="lang l">
-              <h2>P</h2>
-              <p>Punjabi</p>
-          </div>
-          <div class="lang m">
-              <h2>M</h2>
-              <p>Marathi</p>
-          </div>
-          <div class="lang n">
-              <h2>T</h2>
-              <p>Tamil</p>
-          </div>
-          <div class="lang o">
-              <h2>B</h2>
-              <P>Bengali</P>
-          </div>
-        </div>
+    <div class="fav parts">
+      <div class="fan">Choose by Genere</div>
+      <div class="movies">
+        <div class="pics r"></div>
+        <div class="pics s"></div>
+        <div class="pics t"></div>
+        <div class="pics u"></div>
       </div>
-      <div class="fav parts">
-        <div class="fan">Top Rated</div>
-        <div class="movies">
-          <div class="avenger p"></div>
-          <div class="q"></div>
-        </div>
-      </div>
+    </div>
 
-      <div class="fav parts">
-        <div class="fan">Choose by Genere</div>
-        <div class="movies">
-          <div class="pics r"></div>
-          <div class="pics s"></div>
-          <div class="pics t"></div>
-          <div class="pics u"></div>
+    <div class="fav parts">
+      <div class="movies">
+        <div class="gen">
+          <div class="character">Romance</div>
+          <div class="exp">
+            <i class="fa fa-plus" style="color: rgb(32, 145, 221);"></i>Explore
+          </div>
+        </div>
+        <div class="gen">
+          <div class="character">Drama</div>
+          <div class="exp">
+            <i class="fa fa-plus" style="color: rgb(32, 145, 221);"></i>Explore
+          </div>
+        </div>
+        <div class="gen">
+          <div class="character">Action</div>
+          <div class="exp">
+            <i class="fa fa-plus" style="color: rgb(32, 145, 221);"></i>Explore
+          </div>
+        </div>
+        <div class="gen">
+          <div class="character">Comedy</div>
+          <div class="exp">
+            <i class="fa fa-plus" style="color: rgb(32, 145, 221);"></i>Explore
+          </div>
         </div>
       </div>
+    </div>
 
+    <div class="bar">
+      See more
+    </div>
+    <footer>
+      <div class="app" align="center">
+        <i class="fa fa-facebook fb"></i>
+        <i class="fa fa-twitter fb"></i>
+        <i class="fa fa-instagram fb"></i>
+        <i class="fa fa-linkedin fb"></i>
+      </div>
+      <div class="flux">
+        <ul>
+          <li>About Flux</li>
+          <li>Career</li>
+          <li>FAQ</li>
+          <li>Get the App</li>
+        </ul>
+      </div>
+      <div class="terms">
+        <ul>
+          <li>Terms and policies</li>
+          <li>Send Feedback</li>
+          <li>Help</li>
+        </ul>
+      </div>
+      <div class="logo"><img src="myimg/flux.png " class="fx" /></div>
+      <div class="enquiry">
+        <p><i class="fa fa-circle-o"></i> 1999-2020 by Flux.com, Inc</p>
+      </div>
+    </footer>
+    <script src="web.js"></script>
   </body>
 </html>
