@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="webstyle2.css" />
     <link rel="stylesheet" type="text/css" href="responsive.css">
   </head>
@@ -16,23 +17,25 @@
       <div class="heading">
         <img src="myimg/flux.png" class="flx">
       </div>
-      <div class="list">
+      <span class="fa fa-bars menu" id="click_me"></span>
+
+      <div class="list" id="links">
         <ul>
-          <li>Home</li>
-          <li>Movies</li>
-          <li>TV shows</li>
-          <li>Kids</li>
+          <li class="hide">Home</li>
+          <li class="hide">Movies</li>
+          <li class="hide">TV shows</li>
+          <li class="hide">Kids</li>
           <li>
             <input type="text" placeholder="Search" class="image" />
             <i class="fa fa-search me" style="font-size: large;"></i>
           </li>
           <li>
-            <i class="fa fa-user-circle-o" style="font-size: x-large;"></i>
+            <i class="fa fa-user-circle-o use" style="font-size: x-large;"></i>
           </li>
         </ul>
       </div>
     </header>
-    <div class="main">
+    <div class="main" id="down1">
       <div class="main1">
         <h1>"Money Heist : Part 4"</h1>
         <div class="para">
@@ -117,5 +120,6 @@
         <p><i class="fa fa-circle-o"></i> 1999-2020 by Flux.com, Inc</p>
       </div>
     </footer>
+    <script src="web2.js"></script>
   </body>
 </html>
