@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="webstyle.css" />
     <link rel="stylesheet" type="text/css" href="responsive1.css" />
   </head>
@@ -16,7 +17,9 @@
       <div class="heading">
         <img src="myimg/flux.png" class="flx" />
       </div>
-      <div class="list">
+      <span class="fa fa-bars menu" id="click_me"></span>
+
+      <div class="list" id="links">
         <ul>
           <li>Home</li>
           <li>Movies</li>
@@ -32,7 +35,7 @@
         </ul>
       </div>
     </header>
-    <div class="main">
+    <div class="main" id="down1">
       <div class="main1">
         <img src="myimg/moneyh.jpg" class="img3" />
       </div>
@@ -64,19 +67,61 @@
     <div class="fav parts">
       <div class="fan">Fan Favourites</div>
       <div class="movies">
-        <div class="pics a"></div>
-        <div class="pics b"></div>
-        <div class="pics c"></div>
-        <div class="pics d"></div>
-      </div>
-    </div>
+        <div class="pics a" id="hover">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
 
-    <div class="fav parts boll">
-      <div class="fan">Bollywood Binge</div>
-      <div class="movies">
-        <div class="pics e"></div>
-        <div class="pics f"></div>
-        <div class="pics g">
+            <div class="more2">
+              <h3>La Casa De Papel</h3>
+              <h4>A coming-of-age story based on the criminal masterminds.</h4>
+              <h5>
+                2 hr 32 min. | 2019 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.8
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+
+        </div>
+        <div class="pics b" id="hover">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>Inception</h3>
+              <h4>It's totally adventures and thriller movie.</h4>
+              <h5>
+                1 hr 33 min. | 2010 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.9
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+
+        </div>
+        <div class="pics c" id="hover">
           <div class="more new">
             <div class="more1">
               <i
@@ -91,7 +136,7 @@
 
             <div class="more2">
               <h3>Gully Boy</h3>
-              <h4>A coming-of-age story based on the lives of street rappers in Mumbai.</h4>
+              <h4>A coming-of-age story based on the lives of street rappers.</h4>
               <h5>
                 2 hr 33 min. | 2019 |
                 <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.3
@@ -102,7 +147,142 @@
             </div>
           </div>
         </div>
-        <div class="pics h"></div>
+        <div class="pics d" id="hover">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>Joker</h3>
+              <h4>This movie based on DC comics characters.</h4>
+              <h5>
+                2 hr 10 min. | 2019 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.0
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fav parts boll">
+      <div class="fan">Bollywood Binge</div>
+      <div class="movies">
+        <div class="pics e">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>Ye Jawani H Deewani</h3>
+              <h4>It's indian romantic drama film.</h4>
+              <h5>
+                2 hr 53 min. | 2013 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.1
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pics f">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>Manjhi</h3>
+              <h4>It's indian true inspired story of Mountain Man.</h4>
+              <h5>
+                2 hr 15 min. | 2015 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.7
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pics g">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>Bhaag Milkha Bhaag</h3>
+              <h4>Indian biographical sports drama film.</h4>
+              <h5>
+                1 hr 33 min. | 2013 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>4.6
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pics h">
+          <div class="more new">
+            <div class="more1">
+              <i
+                class="fa fa-play-circle-o"
+                style="
+                  font-size: 35px;
+                  color: rgb(239, 242, 243);
+                  margin: 5px 5px 0 15px;
+                "
+              ></i>
+            </div>
+
+            <div class="more2">
+              <h3>3 idiots</h3>
+              <h4>It's a mixture of full drama,comedy,inspired movie. </h4>
+              <h5>
+                2 hr 33 min. | 2019 |
+                <i class="fa fa-star" style="color: rgb(230, 230, 61);"></i>5.0
+              </h5>
+            </div>
+            <div class="more3">
+              <i class="fa fa-plus" style="font-size: 22px; color: white; margin:5px 5px 0 0;"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -171,10 +351,10 @@
     <div class="fav parts">
       <div class="fan">Choose by Genere</div>
       <div class="movies">
-        <div class="pics r"></div>
-        <div class="pics s"></div>
-        <div class="pics t"></div>
-        <div class="pics u"></div>
+        <div class="pics plz r"></div>
+        <div class="pics plz s"></div>
+        <div class="pics plz t"></div>
+        <div class="pics plz u"></div>
       </div>
     </div>
 
