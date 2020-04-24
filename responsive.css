@@ -42,7 +42,10 @@
     .pics{
         width:40%;
     }
-
+    .pics:hover{
+        width: 43%;
+        height: 125px;
+    }
     .fav{
         margin-left:65px;
     }
@@ -58,12 +61,22 @@
     footer{
         width:102%;
     }
-    
+    .mir,.dir{
+        font-size: 12px;
+    }
+    .menu{
+        display: none;
+    }
 }
 
 
 @media (max-width:670px){
-    
+    header{
+        width: 100%;
+    }
+    .dir,.mir{
+        font-size: smaller;
+    }
     .main1{
        width:100%;
     }
@@ -80,7 +93,13 @@
 
     }
     .pics{
-        width:45%;
+        margin-left:60px;
+        width:70%;
+        height:200px;
+    }
+    .pics:hover{
+        width: 72%;
+        height: 220px;
     }
     footer{
         width:630px;
@@ -88,16 +107,35 @@
        
     }
     .flux{
-        margin-left:50px;
+        margin-left:-180px;
+      width:700px;
     }
-    .flux li{
-        width:auto;
-    }
+    
     .fb{
         margin-right:10px;
     }
     .terms{
-        margin-left:3%;
+        margin-left:4%;
+    }
+    
+    .menu{
+        display: block;
+        margin-right: 50px;
+    }
+    .list{
+        display: none;
+        margin-top:auto;
+        background-color:#203345;
+        width:100%;
+        height:180px;
+    }
+    ul{
+        display: block;
+        float:none;
+    }
+    li{
+        margin-bottom:12px;
+        background-color:#2037;
     }
     
 }
