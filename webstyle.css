@@ -1,9 +1,24 @@
 *{
     font-family: "Josefin Sans";
+    box-sizing: border-box;
+    position: static;
 }
 body{
     background-color: #152535;
+    position: relative;
 }
+.icon{
+    position: absolute;
+    margin: 150px 20% 0 30%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.flx{
+    margin: 10px 0 0 70px;
+    height: 45px;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -13,8 +28,16 @@ header{
     float: left;
     width: 100%;
 }
+.menu{
+    font-size: xx-large;
+    margin-top: -42px;
+    float:right;
+    display: none; 
+}
+
 .list{
     margin-right: 30px;
+    margin-top:-40px ;
 }
 ul{
     margin: 0 auto;
@@ -24,46 +47,52 @@ ul{
 }
 li{
     margin:0 20px ;
+    cursor: pointer;
 }
 .image{
     position: relative;
     padding: 5px;
+    margin-top: -10px;
+    border-radius: 4px;
+    border: none;
 }
 .me{
     position: absolute;
     left: 89.5%;
     color:#203345 ;
+    margin-left:15px;
 }
 .main{
-    margin-top: 70px;
+    margin-top: 60px;
     display: flex;
-    max-width: 100%;
+    width: 100%;
     max-height: 60%;
+    
 }
 .img3{
     margin-left: 180px;
     margin-top: 50px;
     max-width: 370px;
+    cursor: pointer;
 }
 .main2{
     height: 600px;
     width: 100%;
 }
 .img4{
-    position: relative;
     width: 100%;
     height: 450px;
 }
-h1{
-    position: absolute;
-    top: 400px;
-    color: white;
+.main2 h5{
     font-size: 50px;
+    color: white;
+    margin-top: -63px;
 }
 .para{
     color:lightslategray;
-    margin-left: 40px;
+    margin:-65px 0 0 40px;
     font-size: 20px;
+    line-height: 25px;
 }
 .btn{
     margin-right: 20px;
@@ -72,15 +101,32 @@ h1{
     font-size: 20px;
     background-color:#152535 ;
     color: white;
+    cursor: pointer;
 }
 .btn1{
     color: white;
-    background-color: mediumblue;
+    background-color: rgb(32, 145, 221);
     align-items: center;
     border: none;
+    width: 130px;
+}
+.btn2{
+    width: 180px;
+}
+.btn2:hover{
+    box-shadow: 1px 1px 3px 3px #283a49;
+    background-color: #3a5772;
+}
+.btn3:hover{
+    box-shadow: 3px 3px 10px 10px #283a49;
+    background-color: #3a5772;
+}
+.btn1:hover{
+    box-shadow: 3px 3px 10px 10px #283a49;
+    background-color:rgb(12, 45, 136);
 }
 .fav{
-    margin: 50px 0 30px 180px;
+    margin: 60px 0 30px 180px;
 }
 .fan{
     border-left:3px solid white ;
@@ -97,14 +143,60 @@ h1{
     width:20%;
     height: 120px;
     margin:30px 25px 0 0;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    
+    
 }
+
+.pics:hover{
+    box-shadow: 4px 4px 12px 12px lightslategray;
+    width: 22%;
+    height: 150px;
+}
+.pics:hover .more{
+    height: 70%;
+    box-shadow: 4px 4px 12px 12px lightslategray;
+}
+
+.more{
+    position: sticky;
+    top:100%;
+    overflow: hidden;
+    width:90%;
+    border-radius: 10px;
+    color: white;
+    background-color: #203345;
+    height: 0;
+    transition: 0.5s ease;
+    margin-left: 12px;
+    display: flex;
+}
+.more h3{
+    margin: 10px 0 0 5px;
+    font-size: 13px;
+}
+.more h4{
+    font-size: small;
+    margin-left: -30px;
+    font-weight: normal;
+    color: rgb(236, 236, 236);
+}
+.more h5{
+    font-weight: normal;
+    margin:-10px 0 0 -30px;
+    font-size: x-small;
+    color: lightslategray;
+}
+
 .a{
     background-image: url('myimg/lacasa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .b{
+
     background-image: url('myimg/inception.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,7 +217,7 @@ h1{
     background-repeat: no-repeat;
 }
 .f{
-    background-image: url('myimg/tpoh.jpg');
+    background-image: url('myimg/manjhi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -139,12 +231,23 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.boll{
+    margin-top: 60px;
+}
+
 .lang{
     height: 125px;
     width: 10%;
-    border-radius: 5px;
+    border-radius: 10px;
     margin:30px 34px 0 0;
-    position: relative;
+    cursor: pointer;
+    
+}
+.lang:hover{
+    box-shadow: 3px 3px 10px 10px grey;
+    width: 11%;
+    height: 127px;
 }
 .i{
     background-image: url('myimg/grad6.jpg');
@@ -181,16 +284,63 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.q{
+    width:83%;
+    margin:0 18px 0 18px;
+    border-radius: 10px;
+    color: white;
+    background-color: #203345;
+    height: 80px;
+    display: flex;
+}
+
+
+
+
+
+
+.mov{
+    margin-top: 65px;
+}
+.mov h4{
+    margin:-50px 0 0 0;
+    width: 250%;
+    font-size: 30px;
+}
+.mov h5{
+    margin:5px 0 0 20px;
+    color: lightslategray;
+}
+.con{
+    margin:10px 0 0 540px;
+}
+
 .movies h2{
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
 }
-.movies p{
-    position: absolute;
-    top: 50%;
-    font-size: 30px;
-    font-weight: bolder;
+.movies h6{
+    font-size: 25px;
+    font-weight:bolder;
+    margin-top: -45px;
+}
+
+.avenger{
+    width:85.5%;
+    border-radius:10px ;
+    cursor: pointer;
+    height: 500px;
+    background-image: url('myimg/avenger.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:30px ;
+}
+.avenger:hover{
+    width: 90%;
+    height: 540px;
+    box-shadow: 4px 4px 12px 12px lightslategray;
 }
 
 
@@ -214,4 +364,88 @@ h1{
     background-image: url('myimg/comedy.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.gen{
+    width:18%;
+    height: 45px;
+    margin:-60px 45px 0 10px;
+    border-radius: 5px;
+    background-color: #203345;
+    display: flex;
+}
+.exp{
+    margin:10px 0 0 100px ;
+    font-size: small;
+    color: rgb(32, 145, 221);;
+}
+.character{
+    margin: 10px 0 0 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.bar{
+    margin: 50px 180px 30px 180px;
+    height:45px;
+    color:lightslategray;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #203345;
+    text-align: center;
+}
+footer{
+    height: 200px;
+    margin-top: 75px;
+    background-color: #203345;
+    
+}
+.fb{
+    background-color: lightslategray;
+    color: #152535;
+    margin:20px 15px 20px 0;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.app{
+    margin: 0 auto;
+}
+.flux{
+    text-align: center;
+    width: 73%;
+    margin-bottom:20px  ;
+    color: lightslategray;
+}
+.flux li{
+    width: 135px;
+    font-size: 18px;
+}
+
+.terms{
+    text-align: center;
+    display: flex;
+    color: lightslategray;
+    margin: 0 30%;
+}
+.terms li{
+    width: 170px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.logo{
+    margin-bottom: 20px;
+    text-align: center;
+    color: lightslategray;
+}
+.enquiry{
+    color: lightslategray;
+    text-align: center;
+    font-size: small;
+    margin-top: -20px;
+}
+.fx{
+    height:30px;
 }
