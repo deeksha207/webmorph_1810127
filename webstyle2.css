@@ -6,6 +6,19 @@ body{
     background-color: #152535;
     position: relative;
 }
+
+.menu{
+    font-size: xx-large;
+    margin-top: -42px;
+    float:right;
+    display: none; 
+}
+
+.flx{
+    margin: 10px 0 0 70px;
+    height: 45px;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -17,6 +30,7 @@ header{
 }
 .list{
     margin-right: 30px;
+    margin-top:-40px ;
 }
 ul{
     margin: 0 auto;
@@ -31,11 +45,15 @@ li{
 .image{
     position: relative;
     padding: 5px;
+    margin-top: -10px;
+    border-radius: 4px;
+    border: none;
 }
 .me{
     position: absolute;
     left: 89.5%;
     color:#203345 ;
+    margin-left: 15px;
 }
 
 h1{
@@ -56,8 +74,7 @@ h1{
     position: absolute;
     display: inline-block;
     cursor: pointer;
-    margin: 220px 20% 0 30%;
-    transform: translate(-50%,-50%);
+    margin: 150px 20% 0 27%;
     opacity: 0.5;
     
 }
@@ -105,10 +122,14 @@ label{
     margin-right: 25px;
 }
 .dir{
-    color: rgb(50, 155, 221)
+    font-size: 16px;
+    color: rgb(50, 155, 221);
+    line-height: 22px;
 }
 .mir{
+    font-size: 16px;
     color: white;
+    line-height: 22px;
 }
 
 .fav{
@@ -129,7 +150,13 @@ label{
     width:20%;
     height: 120px;
     margin:30px 25px 0 0;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pics:hover{
+    box-shadow: 3px 3px 10px 10px grey;
+    width:22%;
+    height:125px;
 }
 
 .a{
@@ -202,5 +229,8 @@ footer{
     color: lightslategray;
     text-align: center;
     font-size: small;
-    margin-top: 10px;
+    margin-top: -20px;
+}
+.fx{
+    height:30px;
 }
