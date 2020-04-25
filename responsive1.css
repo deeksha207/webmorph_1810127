@@ -165,9 +165,11 @@
     .exp{
         margin-left:auto;
         margin-right:50px;
+        font-size:33px
     }
     .character{
         margin-left:50px;
+        font-size:33px;
     }
     .avenger{
         margin-left:50px;
@@ -222,5 +224,9 @@
         font-size:35px;
         background-color:#2037;
     }
+    .more h3,h4,h5{
+        font-size:36px;
+    }
+    
     
 }
