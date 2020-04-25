@@ -103,7 +103,7 @@
         float:unset;
     }
     .main{
-        width:290%;
+        width:310%;
     }
     .dir,.mir{
         font-size: smaller;
@@ -120,23 +120,38 @@
        width:680px;
        height:85%;
     }
+    .icon{
+        margin-left:100%;
+    }
     .movies{
         width:550px;
         display:flex;
 
     }
     .pics{
-        margin-left:50px;
-        width:90%;
-        height:200px;
+        margin-left:100px;
+        width:100%;
+        height:380px;
     }
+    .movies{
+        width:580%;
+    }
+
     .pics:hover{
-        width:92%;
-        height:210px;
+        width:106%;
+        height:400px;
+    }
+    .pics:hover .more{
+        height:30%;
+        width:95%;
+    }
+    .pics:hover .more3{
+        margin-left:auto;
+        margin-right:20px;
     }
     .lang{
         width:90%;
-        margin-left:50px;
+        margin-left:100px;
     }
     .lang:hover{
         width:92%;
@@ -146,6 +161,13 @@
         width:1255px;
         margin-top:120px;
        
+    }
+    .exp{
+        margin-left:auto;
+        margin-right:50px;
+    }
+    .character{
+        margin-left:50px;
     }
     .avenger{
         margin-left:50px;
@@ -158,7 +180,8 @@
         font-size:large;
     }
     .con{
-        margin-left:80px;
+        margin-left:auto;
+        margin-right:40px;
     }
     .flux{
         margin-left:120px;
@@ -188,7 +211,7 @@
         margin-top:auto;
         background-color:#203345;
         width:100%;
-        height:180px;
+        height:285px;
     }
     .list ul{
         display: block;
@@ -196,6 +219,7 @@
     }
     .list li{
         margin-bottom:12px;
+        font-size:35px;
         background-color:#2037;
     }
     
