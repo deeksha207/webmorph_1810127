@@ -8,6 +8,6 @@ function show1(){
     }
     else{
         show.style.display="block";
-        down.style.marginTop="240px";
+        down.style.marginTop="325px";
     }
 }
